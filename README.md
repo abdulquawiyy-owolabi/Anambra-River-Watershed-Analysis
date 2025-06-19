@@ -9,7 +9,7 @@
 3. [Methodology](#methodology)  
 4. [Results and Analysis](#results-and-analysis)
 5. [Conclusions](#conclusions)
-6. [References and Appendices](#references-and-appendices)
+6. [References and Appendices](#references)
 
 ---
 
@@ -213,8 +213,18 @@ Simulation results indicate a high level of flood risk across the basin. The pea
 
 The findings of this study offer several practical applications. They serve as a basis for the design and sizing of hydraulic infrastructure, including bridges and culverts, to ensure resilience against high flow conditions. The simulation outcomes also support floodplain delineation, aiding in the identification of areas at risk of inundation. In addition, the results can inform the development of early warning systems and guide land-use policies, enabling authorities to implement effective zoning and development controls in flood-prone regions.
 
-### 6.2 Recommendations
+### 4.2 Recommendations
 
 To enhance model reliability, it is recommended to incorporate additional calibration data as they become available. The model should be adapted for real-time operational flood forecasting, improving early warning capabilities. Future studies should consider climate change scenarios to evaluate shifts in flood risk. Lastly, integrating HEC-HMS with hydraulic models such as HEC-RAS can enable comprehensive flood hazard mapping and risk assessment.
+
+---
+
+## 5. References
+
+NASA POWER Climate Data Viewer: https://power.larc.nasa.gov/data-access-viewer/
+
+HEC-HMS User Manual (Version 4.13)
+
+QGIS Documentation and Plugins
 
 ---
