@@ -36,19 +36,10 @@ This hydrological modeling study was conducted to:
 ---
 
 ## 2. Methodology
-
-<!-- ### Modeling Approach
-The study employed HEC-HMS (Hydrologic Engineering Center's Hydrologic Modeling System) for hydrological modeling. This approach enables:
-- Continuous simulation of precipitation-runoff processes
-- Dynamic flow routing through channel networks
-- Unsteady flow analysis for flood wave propagation
-- Comprehensive water balance calculations -->
-
 ### Data Sources and Inputs
 1. **Topographic Data:** Digital elevation models (DEM) from Shuttle Radar Topography Mission (SRTM) with 30m resolution was used to delineate watershed boundaries, subbasins, and river networks.
 2. **Meteorological Data:** Daily precipitation data from January 1 to June 10, 2023, sourced from the [NASA Power Data](https://power.larc.nasa.gov/data-access-viewer/), was utilized to predict the conversion of rainfall into runoff within a drainage basin. This  helps to improve the model accuracy by because of spatial and temporal variability of precipitation, which significantly affects runoff generation.
 3. **Basin Characteristics:** The SCS curve number was used to estimate direct runoff from rainfall by considering factors like soil type, land use, and moisture conditions to provides a numerical value that helps predict how much rainfall will contribute to runoff.
-
 
 ### Model Development
 The model consists of four primary components: Basin Model, Meteorological Model, Time-Series Data and Control Specifications.
@@ -84,7 +75,9 @@ The basin model was developed by delineating the watershed using a Digital Eleva
 This was followed by estimating both physical and hydrological parameters. Physical parameters such as subbasin area, average slope, and channel length were derived from the DEM and catchment geometry. Hydrological parameters included Curve Number (CN) values assigned based on land use and soil group combinations, time of concentration (lag time), and routing coefficients necessary for Muskingum channel routing. Subbasin elements were then created and appropriate modeling methods for loss, transform, baseflow, and routing processes were assigned.
 
 b. Time Series Data
-Time series data are the time-dependent variables that drive hydrological simulations. These datasets provide the temporal variation of meteorological and hydrological parameters throughout the simulation period. In this study, a daily precipitation data was used. This data spans from 00:00 on January 1, 2025 to 23:00 on June 10. 2025.
+Time series data are the time-dependent variables that drive hydrological simulations. These datasets provide the temporal variation of meteorological and hydrological parameters throughout the simulation period. In this study, a daily precipitation data was used which its graph is shown in Figure 1. This data spans from 00:00 on January 1, 2025 to 23:00 on June 10. 2025.
+![Precipitation graph](<Graphs/Precipitation graph.png>)
+Figure 1: Precipitation graph
 
 c. Meterological Model
 The Meteorologic Model defines how meteorological data is applied to the watershed elements in the Basin Model. It serves as the interface between time series meteorological data and the hydrological processes.
@@ -131,10 +124,14 @@ The simulation generated comprehensive flow data for all 32 model elements. Peak
 | Reach-5 | 201.5 | June 14, 11:26 | 1,076.59 |
 
 The simulation results revealed significant spatial and temporal variability in flood response throughout the Anambra River Basin. Critical flow locations included the basin outlet located near Otuocha community, which recorded the highest peak discharge of **24,145.0 m³/s** at **11:42 AM** on **June 14, 2025** as shown in Figure 1 below. Reach-6 (located in Aguake and Nuam region) followed closely with a peak discharge of **21,070.7 m³/s** at **11:56 AM**, while Reach-1 (Okpaga) and Reach-4 (Mam region) experienced peak flows of **15,207.5 m³/s** and **11,306.9 m³/s** at **11:50 AM** and **11:44 AM**, respectively.
-![alt text](<Sink 1.png>)
+![alt text](<Graphs/Sink 1.png>)
 Figure 1: Outflow of the Basin Outlet in Otuocha.
-![alt text]({BD02F5B7-78B0-4F75-ACEA-BDDF8286600D}.png)
+![alt text](<Graphs/Reach 6.png>)
+Figure 2: Outflow of Reach-6 located in Aguake community
+![alt text](<Graphs/Reach 1.png>)
 Figure 3: Outflow of Reach 1 in Mam community
+![alt text](<Graphs/Reach 4.png>)
+Figure 4: Outflow of Reach 4 near Okpaga community
 
 #### Subbasin Performance Analysis
 
@@ -148,15 +145,22 @@ Figure 3: Outflow of Reach 1 in Mam community
 | Subbasin-7 | 127.8 | 1,951.1 | June 14, 10:40 |
 | Subbasin-15 | 120.0 | 1,707.9 | June 14, 11:08 |
 
-Subbasin contributions to the overall discharge were also notable. Subbasin-9 emerged as the highest contributor, generating **2,468.1 m³/s**, while Subbasins-4 and -7 contributed **1,887.9 m³/s** and **1,951.1 m³/s**, respectively. Most subbasins peaked between **10:30 AM and 12:00 PM** on the same day which show the basin-wide hydrological response to rainfall inputs.
+The contribution of the subbasins to the total discharge of the watershed can not be overlooked. Subbasin-9 (Amaetiti) has the highest total discharge of **2,468.1 m³/s**, while Subbasins-4 (Mamu) and -7 (Umuife) have discharge of **1,887.9 m³/s** and **1,951.1 m³/s**, respectively. Most subbasins peaked between **10:30 AM and 12:00 PM** on the same day which show the basin-wide hydrological response to rainfall inputs.
+The hydrograph and hyetograph (Figure 5) for Subbasin-9 (Amaetiti) shows a rapid hydrological response of the subbasin to rainfall events between June 10 and June 14, 2025. The subbasin experienced multiple storm events, culminating in a peak discharge of approximately 2,468.1 m³/s on June 14 which was followed by intense rainfall input. The short lag between rainfall and peak flow shows a fast-responding catchment with limited infiltration due to impervious surfaces and steep terrain. Minimal baseflow contribution confirms that surface runoff is the dominant flow mechanism. The sharp rise and fall in the hydrograph shows a high risk of flash flooding which may require for effective flood mitigation strategies in this subbasin.
+![alt text](<Graphs/Subbasin 9.png>)
+Figure 5: Hydrograph and hyetograph plot for Subbasin-9 (Amaetiti)
+
+The hyetograph and hydrograph for **Subbasin-4** (Mamu) (Figure 6), there is spontaneous response to the hydroloogical behavior during the simulation period. The simulation shows that multiple rainfall events occurred between **June 10 and June 14, 2025** has an increase intensity toward the end of the period which culminated in a sharp peak discharge of approximately **1,887.9 m³/s** on **June 14**, following the most intense precipitation. This runoff dynamics of Subbasin-4 indicate the need for targeted flood risk management, especially during high-intensity storms.
+![Subbasin 4](Graphs/Subbasin4.png)
+Figure 6: Hydrograph and hyetograph plot for Subbasin-4 (Mamu)
 
 ### 3.2. Temporal Flow Analysis
 
-Most subbasins recorded their peak discharge between 10:28 AM and 11:56 AM which shows a systematic downstream progression of the flood wave. The temporal evolution of the flood wave showed that upstream subbasins, such as Subbasin-16 and Subbasin-21, responded first, with peak flows occurring as early as **08:24 to 08:38 AM**. As the flood wave progressed downstream, the major reaches experienced peak discharges between **11:16 AM and 11:56 AM**. The final peak at the basin outlet occurred at **11:42 AM**, representing the cumulative hydrological response of the basin.
+Most subbasins recorded their peak discharge between 10:28 AM and 11:56 AM which shows a systematic downstream progression of the flood wave. The temporal evolution of the flood wave showed that upstream subbasins, such as Subbasin-16 (Ukukwa) and Subbasin-21 (Ajalli), responded first, with peak flows occurring as early as **08:24 to 08:38 AM**. As the flood wave progressed downstream, the major reaches experienced peak discharges between **11:16 AM and 11:56 AM**. The final peak at the basin outlet occurred at **11:42 AM** whih shows the cumulative hydrological response of the basin.
 
 ### 3.3 Volume Analysis
 
-The total flood volume across the basin was approximately **1.07 × 10⁶ thousand m³**, demonstrating the magnitude and severity of the hydrological event. The volume was relatively uniformly distributed among the major contributing subbasins, indicating widespread rainfall impact. Runoff coefficients calculated during the event indicated high runoff efficiency, characteristic of rapid and intense storm events.
+The total flood volume across the basin was approximately **1.07 × 10⁶ thousand m³** shows the severity of the hydrological event. The volume was relatively uniformly distributed among the major contributing subbasins, indicating widespread rainfall impact. Runoff coefficients calculated during the event indicated high runoff efficiency, characteristic of rapid and intense storm events.
 
 ### 3.4 Hydrograph Characteristics
 
