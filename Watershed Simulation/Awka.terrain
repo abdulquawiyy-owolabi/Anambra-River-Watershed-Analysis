@@ -1,0 +1,13 @@
+Terrain Data Manager: Awka
+     Version: 4.13
+     Filepath Separator: \
+End:
+
+Terrain Data: Terrain 1
+     Description: 
+     Terrain Directory: terrain\Terrain_1
+     Vertical Units: Meters
+     Stream Threshold: 50 km2
+     Last Modified Date: 18 June 2025
+     Last Modified Time: 07:16:23
+End:

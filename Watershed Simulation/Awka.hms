@@ -1,0 +1,27 @@
+Project: Awka
+     Description: 
+     Version: 4.13
+     Filepath Separator: \
+     DSS File Name: Awka.dss
+     Time Zone ID: Africa/Lagos
+End:
+
+Precipitation: Met 1
+     Filename: Met_1.met
+     Description: 
+     Last Modified Date: 18 June 2025
+     Last Modified Time: 09:30
+End:
+
+Basin: Basin 1
+     Filename: Basin_1.basin
+     Description: 
+     Last Modified Date: 18 June 2025
+     Last Modified Time: 08:27
+End:
+
+Control: Control 1
+     FileName: Control_1.control
+     Description: 
+End:
+
