@@ -124,6 +124,12 @@ The hydrologic modeling was conducted using **HEC-HMS 4.13**. Spatial data proce
 
 ## 3. Results and Analysis
 
+
+![alt text](maps/Layout.jpg)
+*Figure 1: Reaches and Subbasins delineated*
+
+![alt text](<maps/Peak Discharge and Time of Peak of Subbasins and Reaches.jpg>)
+*Figure 2:Peak Discharge and Time of Peak of Subbasins and Reaches*
 ### 3.1. Peak Discharge Summary
 
 The simulation generated comprehensive flow data for all 32 model elements. Peak discharge analysis reveals significant spatial and temporal variability across the watershed.
@@ -148,16 +154,16 @@ The simulation generated comprehensive flow data for all 32 model elements. Peak
 The simulation results revealed significant spatial and temporal variability in flood response throughout the Anambra River Basin. Critical flow locations included the basin outlet located near Otuocha community, which recorded the highest peak discharge of **24,145.0 m³/s** at **11:42 AM** on **June 14, 2025** as shown in Figure 1 below. Reach-6 (located in Aguake and Nnem region) followed closely with a peak discharge of **21,070.7 m³/s** at **11:56 AM**, while Reach-1 (Okpaga) and Reach-4 (Nnom region) experienced peak flows of **15,207.5 m³/s** and **11,306.9 m³/s** at **11:50 AM** and **11:44 AM**, respectively.
 
 ![alt text](Graphs/Sink 1.png)  
-*Figure 1: Outflow of the Basin Outlet in Otuocha.*
+*Figure 3: Outflow of the Basin Outlet in Otuocha.*
 
 ![alt text](Graphs/Reach 6.png)  
-*Figure 2: Outflow of Reach-6 located in Aguake community*
+*Figure 4: Outflow of Reach-6 located in Aguake community*
 
 ![alt text](Graphs/Reach 1.png)  
-*Figure 3: Outflow of Reach 1 in Mam community*
+*Figure 5: Outflow of Reach 1 in Mam community*
 
 ![alt text](Graphs/Reach 4.png)  
-*Figure 4: Outflow of Reach 4 near Okpaga community*
+*Figure 6: Outflow of Reach 4 near Okpaga community*
 
 #### Subbasin Performance Analysis
 
@@ -176,12 +182,12 @@ The contribution of the subbasins to the total discharge of the watershed can no
 The hydrograph and hyetograph (Figure 5) for Subbasin-9 (Amaetiti) shows a rapid hydrological response of the subbasin to rainfall events between June 10 and June 14, 2025. The subbasin experienced multiple storm events, culminating in a peak discharge of approximately 2,468.1 m³/s on June 14 which was followed by intense rainfall input. The short lag between rainfall and peak flow shows a fast-responding catchment with limited infiltration due to impervious surfaces and steep terrain. Minimal baseflow contribution confirms that surface runoff is the dominant flow mechanism. The sharp rise and fall in the hydrograph shows a high risk of flash flooding which may require for effective flood mitigation strategies in this subbasin.
 
 ![alt text](Graphs/Subbasin 9.png)  
-*Figure 5: Hydrograph and hyetograph plot for Subbasin-9 (Amaetiti)*
+*Figure 7: Hydrograph and hyetograph plot for Subbasin-9 (Amaetiti)*
 
 The hyetograph and hydrograph for **Subbasin-4** (Mamu) (Figure 6), there is spontaneous response to the hydroloogical behavior during the simulation period. The simulation shows that multiple rainfall events occurred between **June 10 and June 14, 2025** has an increase intensity toward the end of the period which culminated in a sharp peak discharge of approximately **1,887.9 m³/s** on **June 14**, following the most intense precipitation. This runoff dynamics of Subbasin-4 indicate the need for targeted flood risk management, especially during high-intensity storms.
 
 ![Subbasin 4](Graphs/Subbasin4.png)  
-*Figure 6: Hydrograph and hyetograph plot for Subbasin-4 (Mamu)*
+*Figure 8: Hydrograph and hyetograph plot for Subbasin-4 (Mamu)*
 
 ### 3.2. Temporal Flow Analysis
 
