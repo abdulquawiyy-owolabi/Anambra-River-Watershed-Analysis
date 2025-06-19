@@ -1,15 +1,16 @@
-# HEC-RAS Hydrologic and Hydraulic Modeling Report
-## Project Anambra River (Awka) Watershed Analysis
+# Single Event Hydrological Modelling of Anambra River Using HEC-HMS (Hydrologic Modeling System)
+## Project Anambra River Watershed Analysis
 
 ---
 
-### Table of Contents
+## Table of Contents
+
 1. [Summary](#summary)
 2. [Project Overview](#project-overview)
-3. [Methodology](#methodology)  
+3. [Methodology](#methodology)
 4. [Results and Analysis](#results-and-analysis)
 5. [Conclusions](#conclusions)
-6. [References and Appendices](#references)
+6. [References](#references)
 
 ---
 
@@ -19,7 +20,7 @@ The results of a detailed hydrological modelling of the Awka watershed using HEC
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
 ### Background
 
@@ -39,7 +40,7 @@ This hydrological modeling study was conducted to:
 
 ---
 
-## 2. Methodology
+## Methodology
 
 ### Data Sources and Inputs
 
@@ -122,7 +123,7 @@ The hydrologic modeling was conducted using **HEC-HMS 4.13**. Spatial data proce
 
 ---
 
-## 3. Results and Analysis
+## Results and Analysis
 
 
 ![alt text](maps/Layout.jpg)
@@ -203,7 +204,7 @@ Hydrograph analysis provided insights into the basin's response characteristics.
 
 ---
 
-## 4. Conclusions and Recommendations
+## Conclusions
 
 ### 4.1 Conclusion
 
@@ -213,13 +214,9 @@ Simulation results indicate a high level of flood risk across the basin. The pea
 
 The findings of this study offer several practical applications. They serve as a basis for the design and sizing of hydraulic infrastructure, including bridges and culverts, to ensure resilience against high flow conditions. The simulation outcomes also support floodplain delineation, aiding in the identification of areas at risk of inundation. In addition, the results can inform the development of early warning systems and guide land-use policies, enabling authorities to implement effective zoning and development controls in flood-prone regions.
 
-### 4.2 Recommendations
-
-To enhance model reliability, it is recommended to incorporate additional calibration data as they become available. The model should be adapted for real-time operational flood forecasting, improving early warning capabilities. Future studies should consider climate change scenarios to evaluate shifts in flood risk. Lastly, integrating HEC-HMS with hydraulic models such as HEC-RAS can enable comprehensive flood hazard mapping and risk assessment.
-
 ---
 
-## 5. References
+## References
 
 NASA POWER Climate Data Viewer: https://power.larc.nasa.gov/data-access-viewer/
 
