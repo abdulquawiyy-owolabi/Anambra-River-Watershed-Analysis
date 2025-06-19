@@ -130,10 +130,11 @@ The simulation generated comprehensive flow data for all 32 model elements. Peak
 | Reach-9 | 214.6 | June 14, 11:16 | 1,077.61 |
 | Reach-5 | 201.5 | June 14, 11:26 | 1,076.59 |
 
-The simulation results revealed significant spatial and temporal variability in flood response throughout the Anambra River Basin. Critical flow locations included the basin outlet located near Otuocha community, which recorded the highest peak discharge of **24,145.0 m³/s** at **11:42 AM** on **June 14, 2025** as shown in Figure 1 below. Reach-6 (located in Aguake and Nuam region) followed closely with a peak discharge of **21,070.7 m³/s** at **11:56 AM**, while Reach-1 (Ukpogho) and Reach-4 experienced peak flows of **15,207.5 m³/s** and **11,306.9 m³/s** at **11:50 AM** and **11:44 AM**, respectively.
-![alt text]({F1852775-CCFB-4429-A523-3584C7EE3B88}-1.png)
+The simulation results revealed significant spatial and temporal variability in flood response throughout the Anambra River Basin. Critical flow locations included the basin outlet located near Otuocha community, which recorded the highest peak discharge of **24,145.0 m³/s** at **11:42 AM** on **June 14, 2025** as shown in Figure 1 below. Reach-6 (located in Aguake and Nuam region) followed closely with a peak discharge of **21,070.7 m³/s** at **11:56 AM**, while Reach-1 (Okpaga) and Reach-4 (Mam region) experienced peak flows of **15,207.5 m³/s** and **11,306.9 m³/s** at **11:50 AM** and **11:44 AM**, respectively.
+![alt text](<Sink 1.png>)
 Figure 1: Outflow of the Basin Outlet in Otuocha.
-
+![alt text]({BD02F5B7-78B0-4F75-ACEA-BDDF8286600D}.png)
+Figure 3: Outflow of Reach 1 in Mam community
 
 #### Subbasin Performance Analysis
 
