@@ -16,7 +16,7 @@
 
 ## Summary
 
-The results of a detailed hydrological modelling of the Awka watershed using HEC-HMS (Hydrologic Modeling System) software. The study simulated rainfall-runoff THAT analyzed hydrological conditions from June 10-15, 2025 to provide insights into peak discharge patterns, timing, and volume of water across 33 hydrological elements within the basin (comprises of 22 subbasins and 10 reaches). The result of the study shows that the maximum system discharge was 1,804.5 m³/s at the main outlet (Sink-1, Otuocha) and the time span of the peak flow across the watershed was 4 hours. Critical flood risk areas identified at Otuocha, Reach-6, and downstream Subbasin-4(at Oba-Umuokpe). The analysis also revealed that the total system response demonstrates rapid runoff characteristics with peak flows occurring within 11-12 hours of storm initiation.
+The results of hydrological modelling of the Anambra River watershed using HEC-HMS (Hydrologic Modeling System) software. The study simulated rainfall-runoff that analyzed hydrological conditions from June 10-15, 2025 to provide insights into peak discharge patterns, timing, and volume of water across 33 hydrological elements within the basin (comprises of 22 subbasins and 10 reaches). The result of the study shows that the maximum system discharge was 1,804.5 m³/s at the main outlet (Sink-1, Otuocha) and the time span of the peak flow across the watershed was 4 hours. Critical flood risk areas identified at Otuocha, Reach-6, and downstream Subbasin-4(at Oba-Umuokpe). The analysis also revealed that the total system response demonstrates rapid runoff characteristics with peak flows occurring within 11-12 hours of storm initiation.
 
 ---
 
